@@ -46,3 +46,18 @@ class lesson1_6 {
     System.out.println("x="+x);
   }
 }
+
+class lesson1_7 {
+  public static void main(String[] args) {
+    int x, y, t;
+
+    x = 5;
+    y = 3;
+    t = x;
+
+    x = y;
+    y = t;
+
+    System.out.println("x="+x+",y="+y);
+  }
+}
