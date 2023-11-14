@@ -29,3 +29,9 @@ class lesson1_4 {
     System.out.println(x);
   }
 }
+
+class lesson1_5 {
+  public static void main(String[] args) {
+    System.out.println(13*17);
+  }
+}
