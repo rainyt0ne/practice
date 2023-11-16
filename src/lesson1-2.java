@@ -58,3 +58,20 @@ class lesson1_6 {
     System.out.println("x="+x);
   }
 }
+
+/*int 型の変数 x、y に任意の数値を代入し、x の値を y に、y の値を x に入れ替えて x と y の値を表示するプログラムを作成しなさい。 */
+class lesson1_7 {
+  public static void main(String[] args) {
+    int x, y, t;
+
+    x = 5;
+    y = 3;
+    t = x;
+
+    x = y;
+    y = t;
+
+    System.out.println("x="+x+",y="+y);
+  }
+}
+
