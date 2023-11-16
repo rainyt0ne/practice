@@ -105,3 +105,13 @@ class lesson1_10 {
   }
 }
 
+/*int 型の変数 x に任意の数値を代入し、x を x より小さい任意の数値で割った商と余りを表示するプログラムを作成しなさい。 */
+class lesson1_11 {
+  public static void main(String[] args) {
+    int x, y;
+    x = 10;
+    y = 3;
+    System.out.println(x+"を"+y+"で割った商は"+(x/y)+"で、余りは"+(x%y)+"です。");
+  }
+}
+
