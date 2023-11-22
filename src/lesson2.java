@@ -55,3 +55,16 @@ class lesson2_4 {
         }
     }
 }
+
+class lesson2_5 {
+    public static void main(String[] args) {
+        int num = 10;
+        while (num > 0) {
+            if (num % 7 == 0) {
+                break;
+            }
+            System.out.println(num);
+            num --;
+        }
+    }
+}
