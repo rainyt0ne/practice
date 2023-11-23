@@ -79,3 +79,12 @@ class lesson2_6 {
         }
     }
 }
+
+class lesson2_7 {
+    public static void main(String[] args) {
+        String[] places = {"Tokyo", "Osaka", "Kyoto"};
+        for (int i = 0; i <= 2; i++) {
+            System.out.println(places[i]);
+        }
+    }
+}
