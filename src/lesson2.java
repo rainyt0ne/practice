@@ -106,3 +106,12 @@ class lesson2_9 {
         }
     }
 }
+
+class lesson2_10 {
+    public static void main(String[] args) {
+        String[] names = {"太郎", "花子", "もりもりマッチョ"};
+        for (String name: names) {
+            System.out.println(name);
+        }
+    }
+}
