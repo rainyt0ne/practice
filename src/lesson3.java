@@ -8,3 +8,12 @@ class lesson3_1 {
     }
 }
 
+class lesson3_2 {
+    public static void main(String[] args) {
+        printData();
+    }
+
+    public static void printData() {
+        System.out.println("Yeah!");
+    }
+}
