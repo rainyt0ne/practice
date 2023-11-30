@@ -87,3 +87,12 @@ class lesson2_7 {
         }
     }
 }
+
+class lesson2_8 {
+    public static void main(String[] args) {
+        String[] names = {"太郎", "花子", "もりもりマッチョ"};
+        System.out.println(names[2]);
+        names[2] = "地上最強のおやじ";
+        System.out.println(names[2]);
+    }
+}
